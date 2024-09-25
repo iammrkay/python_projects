@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block condent%}
+
+<Form method = "POST">
+{% csrf_token %}
+{{form}}
+<button type="submit"> Register </button>
+</form>
+
+{% endblock %}
