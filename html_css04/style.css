@@ -11,11 +11,18 @@
 
 nav {
     height: 60px;
+    width: 90%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     background-color: black;
     color: white;
+    border-radius: 30px;
+    position: absolute;
+    top: 10px;
+    margin-left: 50px;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .links-container {
@@ -24,14 +31,13 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
-
 }
 
 nav a {
     height: 100%;
     padding: 0 20px;
     display: flex;
-
+    border-radius: 30px;
     align-items: center;
     text-decoration: none;
     color: var(--text-color);
@@ -39,4 +45,13 @@ nav a {
 
 nav a:hover {
     background-color: rgb(81, 139, 141);
+
+}
+
+.main-panel {
+    background-color: aqua;
+    width: 90%;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 90px;
 }
