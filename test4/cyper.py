@@ -1,6 +1,9 @@
-from icecream import ic
+import os
 
-value = "hello"
-valued = value.encode(encoding="ascii",errors="ignore")
+# get current working directory
+cwd = os.getcwd()
 
-ic(valued.decode())
+#get files in directory
+files = os.listdir(cwd) 
+
+print(files)

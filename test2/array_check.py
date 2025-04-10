@@ -1,5 +1,5 @@
 value = []
-string = (input("enter the values"))
+string = (input("enter the values "))
 arra = string.split()
 size = len(arra) - 1
 if (arra[0] == arra[size]):

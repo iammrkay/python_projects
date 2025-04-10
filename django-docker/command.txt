@@ -1,0 +1,12 @@
+part1
+docker build --tag python-django .
+docker run --publish 800:800 python-django
+part 2
+docker-compose build
+docker-compose run --rm app django-admin startproject core .
+docker-compose up
+part 3
+docker-compose build
+docker-compose run --rm app django-admin startproject core .
+docker-compose up
+docker exec -it django_app /bin/bash
